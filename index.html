@@ -61,8 +61,10 @@
                 <div class="col-12 col-sm">
                     <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
+                                    <button class="bg-orange px-2 ml-4">Reserve table</button>
+
                 </div>
-            </div>
+            </div> 
             </div>
         </div>
     </header>
@@ -70,16 +72,16 @@
     <div class="container">
         <div class="row row-content align-items-center">
             <div class="col-12 order-sm-last col-sm-4 col-md-3">
-                <span class="badge badge-danger">HOT</span><h2><span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                Our Lipsmacking Culinary Creations
             </div>
             <div class="col  col-sm col-md">
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center"
                             src="img/uthappizza.png" alt="Uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza</h2>
+                       <div class="row Our d-flex align-items-center"> <h2 class="mt-0">Uthappizza</h2> <span class="badge badge-danger mx-3">HOT</span><span class="badge badge-pill badge-secondary mx-3" >$4.99</span></div>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
-                            Italian pizza, topped with Cerignola olives, ripe vine
+                            Italian pizza, topped with Cerignola olives, ripe  
                             cherry tomatoes, Vidalia onion, Guntur chillies and
                             Buffalo Paneer.</p>
                     </div>
@@ -93,9 +95,10 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
+               <div class="row d.flex align-items-center "><h2>Weekend Grand Buffet</h2><span class=" ml-3  badge bg-danger">NEW</span></div> 
                 <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
             </div>
+            <img src="img/buffet.png" alt="">
         </div>
 
         <div class="row row-content align-items-center">
@@ -119,6 +122,99 @@
                 
             </div>
         </div>
+
+
+        <style>
+            .card{
+                height: 23rem;
+            }
+            .bg-orange{
+                border: none;
+                border-radius: 4px;
+                padding: 8px;
+                background-color: orange;
+            }
+            .bg-yellow{
+                padding: 1rem !important;
+                background-color: orange;
+            }
+
+            .form-check{
+                margin-left: 10px;
+            }
+            
+        </style>
+
+
+        <div class="row row-content justify-content-center  align-items-center">
+         
+            <div class="card bg-light col-12   col-md-7">        
+                    <div class="row bg-yellow px-4"> <h4>Reserve table </h2> </div>
+
+                <div class="row mt-4">
+                            <div class="col-4"> number of Guests</div>
+                <div class="form-check ml-1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                     1
+                    </label>
+                  </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                     2
+                    </label>
+                  </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      3
+                    </label>
+                  </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      4
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                     5
+                    </label>
+                  </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      6
+                    </label>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                    <h6 class="col-3 ml-1  mt-3 mb-2 ">  Date and time</h6>
+
+                    <div class="col-4 mt-2 mb-2">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Date">
+                      </div>
+                      <div class="ml-3 col-4 mt-2 mb-2">
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Time">
+                      </div>
+                </div>
+                    <div class="row justify-content-center">
+                <button type="button" class="btn btn-primary col-3">reserve</button>
+
+
+                    </div>
+                    
+
+                </div>
+              </div>
+        </div>
+
+
+
     </div>
 
     <footer class="footer">
