@@ -3,9 +3,6 @@
     padding:0px;
 }
 
-.form-check{
-    margin-left: 10px;
-}
 
 
 .row-content {
@@ -20,19 +17,7 @@
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
-.card{
-    height: 23rem;
-}
-.bg-orange{
-    border: none;
-    border-radius: 4px;
-    padding: 8px;
-    background-color: orange;
-}
-.bg-yellow{
-    padding: 1rem !important;
-    background-color: orange;
-}
+
 
 .jumbotron {
     padding:70px 30px 70px 30px;
@@ -46,7 +31,12 @@ address{
     margin:0px;
     color:#0f0f0f;
 }
-
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
 
 
 .navbar-dark {

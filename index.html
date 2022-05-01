@@ -56,13 +56,18 @@
                 <div class=" col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                
+                    <script>
+                        $(document).ready(function(){
+                            $('[data-toggle="tooltip"]').tooltip();
+                        });
+                    </script>
                 </div>
                 <div class="col-12 col-sm">
                     <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
-                                    <button class="bg-orange px-2 ml-4">Reserve table</button>
-
+                    <a role="button" class="btn btn-block nav-link btn-warning"
+                    data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
+                    data-placement="bottom" href="#reserveform">Reserve Table</a>
                 </div>
             </div> 
             </div>
